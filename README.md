@@ -6,6 +6,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Stars](https://img.shields.io/github/stars/ninisbeth/contactos-ms?style=social)](https://github.com/ninisbeth/contactos-ms/stargazers)
 [![Forks](https://img.shields.io/github/forks/ninisbeth/contactos-ms?style=social)](https://github.com/ninisbeth/contactos-ms/network/members)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/ninisbeth/contactos-ms/ci-cd.yml?logo=githubactions)](https://github.com/ninisbeth/contactos-ms/actions)  <!-- Si agregas GitHub Actions -->
+[![Coverage](https://img.shields.io/badge/Coverage-85%25-brightgreen?logo=codecov)](https://codecov.io/gh/ninisbeth/contactos-ms)  <!-
 
 # Contactos Microservice 🟢
 
