@@ -7,7 +7,9 @@
 [![Stars](https://img.shields.io/github/stars/ninisbeth/contactos-ms?style=social)](https://github.com/ninisbeth/contactos-ms/stargazers)
 [![Forks](https://img.shields.io/github/forks/ninisbeth/contactos-ms?style=social)](https://github.com/ninisbeth/contactos-ms/network/members)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/ninisbeth/contactos-ms/ci-cd.yml?logo=githubactions)](https://github.com/ninisbeth/contactos-ms/actions)  <!-- Si agregas GitHub Actions -->
-[![Coverage](https://img.shields.io/badge/Coverage-85%25-brightgreen?logo=codecov)](https://codecov.io/gh/ninisbeth/contactos-ms)  <!-
+[![Coverage](https://img.shields.io/badge/Coverage-85%25-brightgreen?logo=codecov)](https://codecov.io/gh/ninisbeth/contactos-ms)
+
+![Demo Swagger](demo-swagger.gif)
 
 # Contactos Microservice 🟢
 
@@ -75,3 +77,9 @@ docker → PostgreSQL en contenedor
 MIT License – siéntete libre de usar este proyecto en tu portafolio, empresa o curso.
 
 Hecho con ❤️ para la comunidad de microservicios en español
+
+## 🗺️ Roadmap
+- [ ] Integración con Spring Security + JWT
+- [ ] Monitoreo con Micrometer + Prometheus
+- [ ] Tests de integración con Testcontainers
+- [ ] Despliegue en Kubernetes (minikube)
