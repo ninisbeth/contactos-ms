@@ -28,6 +28,7 @@ cd contactos-ms
 docker compose up --build
 
 ### Opción 2: Ejecución local
+```bash
 ./mvnw spring-boot:run -Dspring-boot.run.profiles=dev
 
 ##📍 Endpoints principales (OpenAPI)
