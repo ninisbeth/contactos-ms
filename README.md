@@ -30,7 +30,7 @@ docker compose up --build
 ### Opción 2: Ejecución local
 ./mvnw spring-boot:run -Dspring-boot.run.profiles=dev
 
-📍 Endpoints principales (OpenAPI)
+##📍 Endpoints principales (OpenAPI)
 Método,Endpoint,Descripción
 GET,/api/v1/contactos,Listar todos los contactos
 GET,/api/v1/contactos/{id},Buscar por ID
