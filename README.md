@@ -26,3 +26,14 @@ Ideal como base para arquitecturas de microservicios, cursos, portafolios profes
 git clone https://github.com/ninisbeth/contactos-ms.git
 cd contactos-ms
 docker compose up --build
+
+### Opción 2: Ejecución local
+./mvnw spring-boot:run -Dspring-boot.run.profiles=dev
+
+📍 Endpoints principales (OpenAPI)
+Método,Endpoint,Descripción
+GET,/api/v1/contactos,Listar todos los contactos
+GET,/api/v1/contactos/{id},Buscar por ID
+POST,/api/v1/contactos,Crear nuevo contacto
+PUT,/api/v1/contactos/{id},Actualizar
+DELETE,/api/v1/contactos/{id},Eliminar
