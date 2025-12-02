@@ -46,7 +46,7 @@ docker compose up --build
 ./mvnw spring-boot:run -Dspring-boot.run.profiles=dev
 ```
 
-##📍 Endpoints principales (OpenAPI)
+## 📍 Endpoints principales (OpenAPI)
 Método,Endpoint,Descripción
 GET,/api/v1/contactos,Listar todos los contactos
 GET,/api/v1/contactos/{id},Buscar por ID
@@ -56,7 +56,7 @@ DELETE,/api/v1/contactos/{id},Eliminar
 
 Documentación completa: /swagger-ui.html | /v3/api-docs
 
-##🐳 Docker
+## 🐳 Docker
 ```bash
 # Construir solo la imagen del microservicio
 docker build -t contactos-ms:latest .
