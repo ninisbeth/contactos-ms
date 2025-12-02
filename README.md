@@ -26,10 +26,12 @@ Ideal como base para arquitecturas de microservicios, cursos, portafolios profes
 git clone https://github.com/ninisbeth/contactos-ms.git
 cd contactos-ms
 docker compose up --build
+```
 
 ### Opción 2: Ejecución local
 ```bash
 ./mvnw spring-boot:run -Dspring-boot.run.profiles=dev
+```
 
 ##📍 Endpoints principales (OpenAPI)
 Método,Endpoint,Descripción
@@ -38,3 +40,25 @@ GET,/api/v1/contactos/{id},Buscar por ID
 POST,/api/v1/contactos,Crear nuevo contacto
 PUT,/api/v1/contactos/{id},Actualizar
 DELETE,/api/v1/contactos/{id},Eliminar
+
+Documentación completa: /swagger-ui.html | /v3/api-docs
+
+##🐳 Docker
+```bash
+# Construir solo la imagen del microservicio
+docker build -t contactos-ms:latest .
+
+# Levantar todo (app + postgres)
+docker compose up -d
+```
+
+⚙️ Perfiles Spring
+
+dev  → H2 en memoria (para pruebas rápidas)
+prod → PostgreSQL externo
+docker → PostgreSQL en contenedor
+
+🤝 Contribuir
+¡Toda contribución es bienvenida! Abre un issue o un PR.
+📄 Licencia
+MIT License – siéntete libre de usar este proyecto en tu portafolio, empresa o curso.
